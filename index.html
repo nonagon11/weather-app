@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+    <h1 class="heading">Weather Status</h1>
+    <div class="container">
+        <div class = "HEADER">
+            <div class = "search_box">
+                <input type = "text" placeholder="Enter Your Location" class ="input-box">
+
+                <button id="searchbtn">click</button>
+            </div>
+        </div>
+        <div class = "weatherbody">
+            <img src="https://openweathermap.org/payload/api/media/file/10d%402x.png" alt="Weather-image" class="weather-image" id ="des-img">
+            <div class="weatherbox">
+                <p class="Temperature"> 0 <sup>°C</sup></p>
+                <p class="description" id="description">Light Rain</p>
+            </div>
+            <div class="weatherdetails">
+                <div class="humidity">
+                    <img src="humidity.webp">
+                    <div class="text">
+                        <span id="humidity">45%</span>
+                        <p>Humidity</p>
+                    </div>
+                </div> 
+                <div class="wind">
+                    <img src="hum.webp">
+                    <div class="text">
+                        <span id="windspeed">15km/hr</span>
+                        <p>WindSpeed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <script src="script.js"></script>
+                     
+</body>
+</html>
